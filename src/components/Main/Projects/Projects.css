@@ -1,0 +1,9 @@
+.container-projects {
+    background-color: #000000;
+}
+
+.section-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

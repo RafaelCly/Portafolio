@@ -1,0 +1,20 @@
+import { useState } from 'react'
+import Header from './components/header/Header'
+import Start from './components/Main/Start/Start'
+import AboutMe from './components/Main/AboutMe/AboutMe'
+import Projects from './components/Main/Projects/Projects'
+import './App.css'
+
+function App() {
+
+  return (
+    <>
+    <Header></Header>
+    <Start></Start>
+    <AboutMe></AboutMe>
+    <Projects></Projects>
+    </>
+  )
+}
+
+export default App

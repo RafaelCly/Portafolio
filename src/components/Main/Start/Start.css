@@ -1,0 +1,100 @@
+.section-start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: radial-gradient(circle, #1c3030, #010101);
+  height: 30rem;
+  gap: 10rem;
+  padding-bottom: 7.5rem;
+  padding-top: 7.5rem;
+}
+
+.presentation {
+  background: linear-gradient(270deg, #6650d6, #28caac);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 8s ease infinite;
+}
+
+.name {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #333;
+  background: linear-gradient(270deg, #6650d6, #28caac);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 8s ease infinite;
+}
+
+.name span:last-child {
+  display: inline-block;
+  width: 0.5rem;
+  height: 5rem;
+  background: linear-gradient(270deg, #6650d6, #28caac);
+  background-size: 600% 600%;
+  animation: gradientShift 8s ease infinite, blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.section-start p {
+  font-size: 1.6rem;
+  color: #747474;
+  margin-top: 1rem;
+  max-width: 550px;
+  text-align: justify;
+}
+
+.section-start img {
+  width: 37rem;
+  height: 25rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.section-start img:hover {
+  transform: scale(1.05);
+}
+
+.icons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.description ion-icon {
+  font-size: 2rem;
+  color: white;
+  border-radius: 20%;
+  transition: 
+    transform 0.3s ease,
+    color 0.3s ease,
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  
+  /* 👇 esto asegura que el espacio reservado sea fijo */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+  
+.description ion-icon:hover {
+  padding: 2px;
+  background-color: #739b86;
+  transform: scale(1.2); /* crece visualmente sin empujar */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

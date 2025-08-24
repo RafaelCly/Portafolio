@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    background: rgba(40, 32, 32, 0.2); /* semitransparente */
+    backdrop-filter: blur(10px); /* aplica el blur */
+    -webkit-backdrop-filter: blur(10px); /* soporte Safari */
+    color: white;
+    width: 100%;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(270deg, #6650d6, #28caac);
+  /*background: linear-gradient(270deg, #ff0080, #7928ca, #00ffcc);*/
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 8s ease infinite;
+  font-family: "Press Start 2P";
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 1rem;
+    font-family: "Press Start 2P";
+    gap: 3rem;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.1s ease;
+    color: white;
+}
+
+@keyframes brillar {
+  0% { color: #6650d6; }
+  50% { color: #00ffcc; }
+  100% { color: #28caac }
+}
+
+.nav-links li:hover .link {
+    animation: brillar 2s infinite;
+}
+
+

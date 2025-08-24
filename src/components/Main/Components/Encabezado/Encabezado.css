@@ -1,0 +1,33 @@
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.header-main h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.header-main p {
+  font-size: 1.5rem;
+  color: #847c7c;
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.header-main span {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(270deg, #6650d6, #28caac);
+  /*background: linear-gradient(270deg, #ff0080, #7928ca, #00ffcc);*/
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 8s ease infinite;
+}

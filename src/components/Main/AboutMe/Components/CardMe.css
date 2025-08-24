@@ -1,0 +1,55 @@
+.card-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 15rem;
+    background-color: #181717;
+    border-radius: 10px; 
+    border: 2px solid #50d6a3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-me:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 6px 12px rgba(76, 175, 82, 0.759);
+}
+
+.card-me ion-icon {
+    font-size: 2rem;
+    color: #50d6a3;
+    background-color: #203d33;
+    padding: 0.5rem;
+    border-radius: 20%;
+    margin-bottom: 1rem;
+}
+
+.card-me h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.card-me p {
+    font-size: 1rem;
+    color: #7d7d7d !important;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+    .card-me {
+        width: 40%;
+        height: 12rem;
+    }
+
+    .card-me h3 {
+        font-size: 1.2rem;
+    }
+
+    .card-me p {
+        font-size: 0.9rem;
+    }
+}
