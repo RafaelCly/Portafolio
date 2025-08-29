@@ -42,7 +42,7 @@
 
 .contact-info ion-icon {
   font-size: 1.8rem;
-  color: #7b3ff3;
+  color: #297747;
   background: rgba(123, 63, 243, 0.1);
   padding: 0.5rem;
   border-radius: 8px;
@@ -62,7 +62,7 @@
 }
 
 .social-icons a:hover {
-  background-color: #7b3ff3;
+  background-color: #308b5a;
 }
 
 .social-icons ion-icon {
@@ -114,7 +114,7 @@ input:focus, textarea:focus {
 }
 
 button {
-  background-color: #7b3ff3;
+  background-color: #307445;
   color: white;
   padding: 0.7rem;
   width: 25%;
@@ -130,7 +130,7 @@ button {
 }
 
 button:hover {
-  background-color: #9d63ff;
+  background-color: #2b4f32;
 }
 
 .nota {

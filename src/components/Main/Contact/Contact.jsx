@@ -18,17 +18,17 @@ export default function Contact() {
             <ContactInformation
               iconContact="Email"
               iconName="mail-outline"
-              myContact="alex@ejemplo.com"
+              myContact="rafael.chu.l@uni.pe"
             />
             <ContactInformation
               iconContact="Teléfono"
               iconName="call-outline"
-              myContact="+34 123 456 789"
+              myContact="+51 948 497 266"
             />
             <ContactInformation
               iconContact="Ubicación"
               iconName="location-outline"
-              myContact="Madrid, España"
+              myContact="Lima, Perú"
             />
           </div>
           <h3>Sígueme en redes sociales</h3>
