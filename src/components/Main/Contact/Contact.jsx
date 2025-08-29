@@ -7,8 +7,8 @@ export default function Contact() {
   return (
     <div className="contact-main" id="contact">
       <Encabezado
-        title="Información de"
-        span="Contacto"
+        title="My"
+        span="Contact"
         description="Puedes contactarme a través de mis redes o enviarme un mensaje directo"
       />
       <div className="contact">
