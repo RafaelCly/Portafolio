@@ -1,0 +1,104 @@
+
+.footerr {
+    background-color: #0e1310;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    background-color: #171313;
+    border: 1px solid #565050;
+    border-left: none;             /* sin borde a la izquierda */
+    border-right: none;  
+}
+
+.foot1 a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.foot1 a:hover {
+    color: #297747;
+}
+
+.footer-1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.footer-1 h3 {
+  font-weight: bold;
+  background: linear-gradient(270deg, #6650d6, #28caac);
+  /*background: linear-gradient(270deg, #ff0080, #7928ca, #00ffcc);*/
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 8s ease infinite;
+}
+
+.footer-1 p {
+    color: #847c7c;
+    font-weight: bold;
+    width: 20rem;
+}
+
+.footer-2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7rem;
+    padding: 0;
+    margin: 0.5rem 0;
+    color: #847c7c;
+}
+
+.footer-2 li {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.footer-2 a {
+    color: #847c7c;
+}
+
+.footer-3 a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    border: 2px solid transparent;
+    padding: 0.3rem;
+    border-radius: 8px;
+    background-color: #000000;
+    transition: all 0.3s;
+    display: inline-flex; /* se comporta como inline pero con flex */
+    align-items: center;  /* centra verticalmente texto + icono */
+    justify-content: center; /* centra horizontalmente si quieres */
+    gap: 0.5rem; /* espacio entre texto y el icono */
+    text-decoration: none; /* opcional */
+}
+
+.footer-3 a:hover {
+    color: #ffffff;
+    background-color: #297747;
+    border: 2px solid #297747;
+}
+
+.footer-3 p {
+    color: #847c7c;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.foot2 {
+    margin-left: 5.5rem;
+}
