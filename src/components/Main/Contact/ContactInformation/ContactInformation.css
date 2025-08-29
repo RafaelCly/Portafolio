@@ -1,0 +1,38 @@
+.contact-info {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #111;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 100%);
+    width: 145%;
+    height: 3rem;
+    margin-left: 10px;
+    border: 2px solid transparent; 
+    transition: border-color 0.3s ease; 
+}
+
+.contact-info:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-color: #3fb3b1; 
+}
+
+.contact-info ion-icon {
+    font-size: 1.5rem;
+    color: #37806e;
+}
+
+.contactt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.contactt h3,
+.contactt p {
+  margin: 0;   /* elimina márgenes por defecto */
+  padding: 0;  /* opcional, por si acaso */
+}
