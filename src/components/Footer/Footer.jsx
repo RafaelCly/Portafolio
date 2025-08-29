@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="foot2">
-        <p>&copy; 2024 Rafael Portfolio. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Rafael Portfolio. Todos los derechos reservados.</p>
       </div>
     </footer>
   );
